@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,500;1,100;1,500&family=Caprasimo&family=Chakra+Petch:ital,wght@0,300;0,700;1,300;1,700&family=Mochiy+Pop+P+One&family=Montserrat:wght@300;600;800&family=Noto+Serif:wght@300;400;600&family=Poppins:ital,wght@0,300;0,400;0,600;1,500&family=Tektur:wght@400;600;700&display=swap');
+:root{
+    --margen-izquierdo : 5%;
+    --margen-derecho: 5%;
+    
+  }
+.contenedor{
+    width: 960px;
+    height: 1200px;
+    border: 3px solid black;
+    border-radius: 2%;
+    margin: auto;
+    margin-top: 1%;
+    font-family: 'Noto Serif', serif;
+    font-weight: 400;
+    background-size: 100% 100%;
+    font-size: 1.1rem;
+    
+    
+}
+/* .imgprog{
+    width: 960px;
+    height: 100%;
+    background-repeat: no-repeat;
+} */
+.fotoDePerfil{
+    width: 180px;
+    height: 200px;
+    margin-top: 15px;
+    border: 2px solid black;
+    border-radius: 10%;
+    
+}
+.encabezado{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-left: var(--margen-izquierdo);
+}
+.encabezado .nombre{
+    display: flex;
+    flex-direction: column;
+    margin-left: -5%;
+    margin-top: 5%;
+}
+.datos{
+    display: flex;
+    flex-direction: column;
+    margin-right: 8%;
+}
+.datos li{
+    margin-top: 25px;
+}
+.resumen{
+    margin-left:var(--margen-izquierdo);
+    margin-right: var(--margen-derecho);
+}
+.historiales{
+    display: flex;
+    flex-direction: row;
+}
+.historial-laboral,.historial-academico{
+    width: 50%;
+    margin-left:var(--margen-izquierdo);
+    margin-right:var(--margen-derecho);
+}
+.cursos-tecnologias{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    
+}
+.cursos ,.tecnoligias{
+    width: 45%;
+    margin-left: var(--margen-izquierdo);
+    margin-right: var(--margen-derecho);
+}
+.tecnoligias{
+    max-width: 50%;
+    width: 50%;
+    height: 100%;
+    justify-content: space-between;
+    
+}
+.redes-idioma{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-left: var(--margen-izquierdo);
+    
+}
+.redes , .idiomas{
+    width: 50%;
+    /* margin-top: -3% */
+}
+.resumen ,.cursos-tecnologias,.historiales,.redes-idioma{
+    margin-top: 1%;
+}
+.historial-laboral li , .historial-academico li{
+    margin-top: 10px;
+}
+.cursos h3 ,.Tecnologias li {
+    margin-top: 15px;
+}
+.t1 , .t2 , .t3{
+    width: 120%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.Tecnologias li{
+    display: block;
+    width: 70px;
+    height: 70px;
+    /* border: 1px solid black; */
+    float: left;
+    margin-left: 15%;
+    border-radius: 5px;
+    
+}
+.jsimg{
+    width: 70px;
+    height: 70px;
+    border: 3px solid black;
+    border-radius: 5px;
+}
